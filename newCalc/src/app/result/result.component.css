@@ -1,0 +1,12 @@
+div{
+    font-weight:bolder;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;  
+}

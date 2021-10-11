@@ -1,0 +1,16 @@
+div.form-group{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+label{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+button.btn {
+    margin-top: 10px;
+    margin-left: 48%;
+}

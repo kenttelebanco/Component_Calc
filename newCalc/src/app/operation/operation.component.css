@@ -1,0 +1,14 @@
+
+div#buttons{
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    width: 70px;
+    padding: 10px;
+    margin-right: 40px;
+    font-size: 25px
+}

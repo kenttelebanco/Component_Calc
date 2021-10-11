@@ -1,0 +1,11 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">    
+    
+  <h2 id="title">AppDev Calculator</h2>
+  <a id="title">for accurate results, dont forget the enter buttons when inputting numbers and operations.</a>
+  <app-numbers (newItemEvent)="addNum($event)"></app-numbers>
+  <app-operation (newItemEvent)="addItem($event)"></app-operation>
+  <app-result [firstNumber]="firstNum" [secondNumber]="secondNum" [op]="operation"></app-result>
+
+  
+
+      

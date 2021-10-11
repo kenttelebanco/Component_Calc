@@ -1,0 +1,13 @@
+
+h2#title{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+
+a{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;   
+}

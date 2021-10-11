@@ -1,0 +1,14 @@
+<form>
+      <div class="form-group">
+        <label><b>First Number</b></label>
+          <input id="input1" class="form-control form-control-lg" name="firstNumber" type="number" placeholder="enter number" #newItem1>
+        </div>
+        <button (click)="addNumber(newItem1.value)" class="btn btn-primary">ENTER</button>
+
+
+      <div class="form-group">
+          <label><b>Second Number</b></label>
+          <input id="input2" class="form-control form-control-lg" name="secondNumber" type="number" placeholder="enter number" #newItem2>
+      </div>
+      <button (click)="addNumber(newItem2.value)" class="btn btn-primary">ENTER</button>
+
