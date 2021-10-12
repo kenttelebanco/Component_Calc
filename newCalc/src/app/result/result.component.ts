@@ -21,18 +21,26 @@ export class ResultComponent implements OnInit {
     switch(value) {
       case '+':
         this.result= (parseInt(this.firstNumber)+parseInt(this.secondNumber)).toString();
+        if (this.result =='NaN')
+        this.result = "No Entered Number. Try Again";
           break;
       case '-':
         this.result= (parseInt(this.firstNumber)-parseInt(this.secondNumber)).toString();
-          break;
+        if (this.result == 'NaN')
+        this.result = "No Entered Number. Try Again"; 
+        break;
       case 'x':
         this.result= (parseInt(this.firstNumber)*parseInt(this.secondNumber)).toString();
-          break;
+        if (this.result == 'NaN')
+        this.result = "No Entered Number. Try Again";  
+        break;
       case '/':
         this.result= (parseInt(this.firstNumber)/parseInt(this.secondNumber)).toString();
-          break;
+        if (this.result == 'NaN')
+        this.result = "No Entered Number. Try Again";  
+        break;
       default:
-          alert("Invalid");
+          alert("No Operation Input. Try Again");
            break;
   }
 }

@@ -1,14 +1,7 @@
-
-div#buttons{
-    margin-top: 50px;
-    margin-left: 50px;
-    justify-content: center;
-    display: flex;
-}
-
 button {
-    width: 70px;
-    padding: 10px;
-    margin-right: 40px;
-    font-size: 25px
+    width: 65px;
+    margin:10px 10px 0px 12px;
+    font-size: 25px;
+    background-color: rgb(245, 155, 37);
+    border-color:unset;
 }

@@ -1,16 +1,15 @@
 div.form-group{
-    margin: auto;
-    width: 25%;
     padding: 10px;
-}
-
-label{
-    margin-top: 50px;
-    justify-content: center;
-    display: flex;
+    width: 100%;
+    display: -webkit-box;
 }
 
 button.btn {
-    margin-top: 10px;
-    margin-left: 48%;
+    margin: 2% 0% 2% 2%;
+    width: 27%;
+}
+
+input{
+    width: 70%;
+    padding: 0% 0% 0% 4%;
 }

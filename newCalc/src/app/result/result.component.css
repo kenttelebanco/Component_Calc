@@ -8,5 +8,6 @@ div{
 h2{
     margin-top: 40px;
     justify-content: center;
-    display: flex;  
+    display: flex; 
+    color: white;
 }
